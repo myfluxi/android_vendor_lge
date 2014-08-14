@@ -148,6 +148,8 @@ PRODUCT_COPY_FILES += \
     vendor/lge/hammerhead/proprietary/vendor/lib/libacdbrtac.so:system/vendor/lib/libacdbrtac.so \
     vendor/lge/hammerhead/proprietary/vendor/lib/libadiertac.so:system/vendor/lib/libadiertac.so \
     vendor/lge/hammerhead/proprietary/vendor/lib/libadreno_utils.so:system/vendor/lib/libadreno_utils.so \
+    vendor/lge/hammerhead/proprietary/vendor/lib/libOpenVG.so:system/vendor/lib/libOpenVG.so \
+    vendor/lge/hammerhead/proprietary/vendor/lib/libscale.so:system/vendor/lib/libscale.so \
     vendor/lge/hammerhead/proprietary/vendor/lib/libAKM8963.so:system/vendor/lib/libAKM8963.so \
     vendor/lge/hammerhead/proprietary/vendor/lib/libaudcal.so:system/vendor/lib/libaudcal.so \
     vendor/lge/hammerhead/proprietary/vendor/lib/libC2D2.so:system/vendor/lib/libC2D2.so \
