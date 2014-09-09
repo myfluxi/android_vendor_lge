@@ -31,7 +31,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/hammerhead/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     vendor/lge/hammerhead/proprietary/bin/sensors.qcom:system/bin/sensors.qcom \
     vendor/lge/hammerhead/proprietary/bin/subsystem_ramdump:system/bin/subsystem_ramdump \
-    vendor/lge/hammerhead/proprietary/bin/thermal-engine-hh:system/bin/thermal-engine-hh \
+    vendor/lge/hammerhead/proprietary/bin/thermal-engine:system/bin/thermal-engine \
     vendor/lge/hammerhead/proprietary/bin/time_daemon:system/bin/time_daemon \
     vendor/lge/hammerhead/proprietary/bin/usbhub:system/bin/usbhub \
     vendor/lge/hammerhead/proprietary/bin/usbhub_init:system/bin/usbhub_init \
@@ -215,6 +215,8 @@ PRODUCT_COPY_FILES += \
     vendor/lge/hammerhead/proprietary/vendor/lib/libsensor1.so:system/vendor/lib/libsensor1.so \
     vendor/lge/hammerhead/proprietary/vendor/lib/libsensor_reg.so:system/vendor/lib/libsensor_reg.so \
     vendor/lge/hammerhead/proprietary/vendor/lib/libsensor_user_cal.so:system/vendor/lib/libsensor_user_cal.so \
+    vendor/lge/hammerhead/proprietary/vendor/lib/libthermalclient.so:system/vendor/lib/libthermalclient.so \
+    vendor/lge/hammerhead/proprietary/vendor/lib/libthermalioctl.so:system/vendor/lib/libthermalioctl.so \
     vendor/lge/hammerhead/proprietary/vendor/lib/libTimeService.so:system/vendor/lib/libTimeService.so \
     vendor/lge/hammerhead/proprietary/vendor/lib/libtime_genoff.so:system/vendor/lib/libtime_genoff.so \
     vendor/lge/hammerhead/proprietary/vendor/lib/libvdmengine.so:system/vendor/lib/libvdmengine.so \
