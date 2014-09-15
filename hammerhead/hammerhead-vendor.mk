@@ -41,6 +41,7 @@ PRODUCT_PACKAGES += \
 
 # Media
 PRODUCT_PACKAGES += \
+    libHevcSwDecoder \
     libmm-abl
 
 $(call inherit-product, vendor/lge/hammerhead/hammerhead-vendor-blobs.mk)
