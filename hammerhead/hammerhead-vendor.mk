@@ -31,11 +31,16 @@ DEVICE_PACKAGE_OVERLAYS := vendor/lge/hammerhead/overlay
 
 # Apps
 PRODUCT_PACKAGES += \
+    AudioFX \
     OmaDmclient \
     qcrilmsgtunnel \
     SprintHiddenMenu \
     shutdownlistener \
     TimeService \
     UpdateSetting
+
+# Audio
+PRODUCT_PACKAGES += \
+    libqct_resampler
 
 $(call inherit-product, vendor/lge/hammerhead/hammerhead-vendor-blobs.mk)
