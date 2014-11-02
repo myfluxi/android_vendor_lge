@@ -47,6 +47,6 @@ PRODUCT_PACKAGES += \
 
 # Audio
 PRODUCT_PACKAGES += \
-    libqct_resampler \
+    libqct_resampler
 
 $(call inherit-product, vendor/lge/hammerhead/hammerhead-vendor-blobs.mk)
